@@ -50,8 +50,8 @@ class SavingsAccount(BankAccount):
     
 def acc_detail(account):
     print(f"Account Number: {account.account_number}")
-    print(f"Account Number: {account.balance}")
-    print(f"Account Number: {account.display_account_type()}")
+    print(f"Account Balance: {account.balance}")
+    print(f"Account Type: {account.display_account_type()}")
     print("-" * 30)
 
 A1 = SavingsAccount('SA123', 5000)
